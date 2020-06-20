@@ -1,1 +1,2 @@
 Creating txt file to check the file transfer from Git HUB to GIT repo(pushing action)
+It is PULL action
