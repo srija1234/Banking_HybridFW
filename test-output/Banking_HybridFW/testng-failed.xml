@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Banking_HybridFW]">
+  <listeners>
+    <listener class-name="com.Banking.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BankTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Banking.Testcases.TC_AddCustomerTest_03">
+        <methods>
+          <include name="addNewCCustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Banking.Testcases.TC_AddCustomerTest_03 -->
+    </classes>
+  </test> <!-- BankTest(failed) -->
+</suite> <!-- Failed suite [Banking_HybridFW] -->

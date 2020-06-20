@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking_HybridFW">
+<listeners>
+<listener class-name="com.Banking.Utilities.Reporting" />
+</listeners>
+
+
+  <test name="BankTest">
+  <parameter name="browser" value="chrome" />
+    <classes>
+        <class name="com.Banking.Testcases.TC_LoginTest_01" /> 
+      <!--  <class name="com.Banking.Testcases.TC_LoginDDT_02" /> -->
+      <class name="com.Banking.Testcases.TC_AddCustomerTest_03" />
+    </classes>
+ </test>
+</suite> <!-- Suite -->

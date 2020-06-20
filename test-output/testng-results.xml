@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking_HybridFW" duration-ms="81140" started-at="2020-06-20T06:44:46Z" finished-at="2020-06-20T06:46:07Z">
+    <groups>
+    </groups>
+    <test name="BankTest" duration-ms="81140" started-at="2020-06-20T06:44:46Z" finished-at="2020-06-20T06:46:07Z">
+      <class name="com.Banking.Testcases.TC_AddCustomerTest_03">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Banking.Testcases.TC_AddCustomerTest_03@31ef45e3]" name="setup" is-config="true" duration-ms="28197" started-at="2020-06-20T06:44:47Z" finished-at="2020-06-20T06:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCCustomer()[pri:0, instance:com.Banking.Testcases.TC_AddCustomerTest_03@31ef45e3]" name="addNewCCustomer" duration-ms="49097" started-at="2020-06-20T06:45:16Z" finished-at="2020-06-20T06:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Banking.Testcases.TC_AddCustomerTest_03@31ef45e3]" name="tearDown" is-config="true" duration-ms="2336" started-at="2020-06-20T06:46:05Z" finished-at="2020-06-20T06:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Banking.Testcases.TC_AddCustomerTest_03 -->
+    </test> <!-- BankTest -->
+  </suite> <!-- Banking_HybridFW -->
+</testng-results>
